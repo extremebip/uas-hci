@@ -1,0 +1,18 @@
+.content-wrapper {
+    margin-top: 1rem;
+}
+
+.btn-link:focus {
+    box-shadow: none;
+}
+
+.action-link, .action-link:focus, .action-link:hover {
+    color: black;
+    transition: font-weight 0.2s ;
+}
+
+.action-link:focus, .action-link:hover {
+    font-weight: bold;
+    text-decoration: none;
+}
+
